@@ -1,0 +1,60 @@
+* {
+    font-family: 'Montserrat', sans-serif;;
+}
+h1 {
+    color: white;
+    font-size: 10vh;
+    display: inline-block;
+    padding: 1vh;
+}
+h2{
+    font-size: 8vh;
+}
+p{
+    font-size: 3vh;
+}
+ul {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 10%;
+    right: 2%;
+}
+header {
+    background-color: #e1461d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    
+}
+main {
+    position: absolute;
+    margin: 5%;
+}
+body {
+    background-color: #dadada;
+    width: 100%;
+}
+a {
+    color: #dadada;
+    text-decoration: none;
+
+}
+.astronautCostume {
+    width: 50%;
+    display: inline-flex;
+    
+}
+.aboutMe, .resume {
+    text-align: right;
+    
+}
+.work, .contact {
+    text-align: left;
+}
+/*
+#302628 dark grey black
+#826198 light purple 
+#ecc600 yellow
+*/
