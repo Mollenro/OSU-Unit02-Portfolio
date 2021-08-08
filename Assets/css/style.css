@@ -1,5 +1,10 @@
+
+@font-face {
+    font-family: Cabin;
+    src: url(/Assets/Cabin/static/Cabin/Cabin-Medium.ttf);
+}
 * {
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Cabin', trebuchet, sans-serif;
 }
 h1 {
     color: white;
@@ -7,8 +12,11 @@ h1 {
     display: inline-block;
     padding: 1vh;
 }
-h2{
+h2 {
     font-size: 8vh;
+}
+h3 {
+    font-size: 4vh;
 }
 p{
     font-size: 3vh;
@@ -30,7 +38,7 @@ header {
 }
 main {
     position: absolute;
-    margin: 5%;
+    padding-top: 5%;
 }
 body {
     background-color: #dadada;
@@ -43,16 +51,19 @@ a {
 }
 .astronautCostume {
     width: 50%;
-    display: inline-flex;
+    display: inline;
     
 }
-.aboutMe, .resume {
-    text-align: right;
-    
-}
-.work, .contact {
-    text-align: left;
-}
+#aboutMe, #resume, #work, #contact {
+    width: 100%;
+    display: inline;
+    text-align: center;
+
+} 
+#aboutMe h2, #resume h2, #work h2, #contact h2{
+    color: #826198;
+    margin: 2% 20%;
+} 
 /*
 #302628 dark grey black
 #826198 light purple 
