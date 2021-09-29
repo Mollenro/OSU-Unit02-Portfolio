@@ -5,35 +5,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
   </head>
   <body>
-    <header>
-        <h1>Music</h1>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="webDev.html">Web Development</a>
-            </li>
-            <li>
-                <a href="art.html">Art</a>
-            </li>
-            <li>
-                <a href="music.html">Music</a>
-            </li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Music</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="webDev.html">Web Development</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="art.html">Art</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="music.html">Music</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  Navbar text with an inline element
+                </span>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <section id="display">
-            <h2>Top Songs</h2>
-            <p>
-                here is where all the songs will be
-            </p>
+        <section id="display" class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/images/raccoonSkull copy.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/images/aGameThatWasNeverMade.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/images/AlbumArtWHalosAndWings copy.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Rowan Mollenkopf 2021</p>
     </footer>
   </body>
