@@ -6,6 +6,10 @@
 * {
     font-family: 'Cabin', trebuchet, sans-serif;
 }
+body{
+    width: 100%;
+    height: 100%;
+}
 h1 {
     color: white;
     font-size: 10vh;
@@ -37,6 +41,13 @@ header {
     z-index: 1;
     
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    justify-content: center;
+}
 main {
     position: absolute;
     padding-top: 5%;
@@ -46,8 +57,13 @@ body {
     width: 100%;
 }
 a {
-    color: #dadada;
+    color: whitesmoke;
     text-decoration: none;
+
+}
+a:hover {
+    color: #826198;
+    text-decoration: underline;
 
 }
 .astronautCostume {
@@ -56,7 +72,7 @@ a {
     
 }
 #aboutMe, #resume, #work, #contact {
-    width: 100%;
+    width: 50%;
     display: inline;
     text-align: center;
 

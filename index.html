@@ -9,19 +9,21 @@
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
   </head>
   <body>
-    <main>
-        <img class="astronautCostume" src="./Assets/images/spaceSuitRo.jpg" alt="an image of Rowan in an astronaut costume laying in the snow."/>
+      <div class="d-flex flex-row">
+        <img class="astronautCostume p-2" src="./Assets/images/spaceSuitRo.jpg" alt="an image of Rowan in an astronaut costume laying in the snow."/>
         
-        <section id="introContainer">
+        <div id="introContainer" class="p-2">
           <p>Hello! I Am</p>
           <p><strong>Rowan Mollenkopf</strong></p>
           <p>& I Am A...</p>
-          <div id="btnContainer">
-            <a href="webDev.html">Full Stack Web Developer</a>
-            <a href="music.html">Musician</a>
-            <a href="art.html">Artist</a>
+          <div id="btnContainer" class="d-flex flex-column">
+            <a href="webDev.html" class="p-2">Full Stack Web Developer</a>
+            <a href="music.html" class="p-2">Musician</a>
+            <a href="art.html" class="p-2">Artist</a>
           </div>
-        </section>
+        </div>
+      </div>
+        
       <section id="aboutMe">
             <h2>About Me</h2>
             <p>
@@ -30,16 +32,15 @@
                 Has a strong work ethic and constantly aims to improve performance.
             </p>
             
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>
-                Phone: 614-226-1272 <br>
-                Email: mollenro@gmail.com
-            </p>
-        </section>
-    </main>
-    <footer>
+      </section>
+      <section id="contact">
+          <h2>Contact</h2>
+          <p>
+              Phone: 614-226-1272 <br>
+              Email: mollenro@gmail.com
+          </p>
+      </section>
+    <footer class="position-absolute">
         <p>Rowan Mollenkopf 2021</p>
     </footer>
   </body>
